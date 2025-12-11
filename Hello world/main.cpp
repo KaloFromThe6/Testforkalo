@@ -15,7 +15,10 @@ int addNumbers (int a, int b){
 
     return a + b;
 }
-
+int onWindows(){
+    std::cout << "this was written on windows!!" << std::endl;
+    return 0;
+}
 
 int main(){
     std::cout << "Hello World" << std::endl;
@@ -27,6 +30,6 @@ int main(){
     std::cin >> y;
     std::cout << "the numbers inputted added together are: ";
     std::cout << addNumbers(x , y) << std::endl;
-
+    onWindows();
     return 0;
 }
