@@ -16,7 +16,7 @@ class testing {
         int age;
         int weight;
 
-}
+};
 
 
 
